@@ -1,4 +1,6 @@
 # IoT-Community-Food-Re-distribution
+
+![](Images/Images/Presentation%20Deck.png)
 ## Introductions
 Our prompt for this project is to create something that can contribute something to the community of people. We eventually created a food re-distribution system by connecting community food tables to the cloud. We wanted to reduce the avoidable food waste people create every day by re-distributing food within the community. With the help of food, we can bring people in the community together and create their interaction. 
 
@@ -9,7 +11,7 @@ Ariel Yu, Hongxun Jin, Tiancheng Yang and Susan Xu
 According to the US Department of Energy, there are 61.2 million tons of food waste across the United States every year, an amount that can feed 112 million people for one year. What's worse, among all the amount of food wasted, 60 million tons is avoidable, the amount that accounted for 29% of the overall annual production. Because of the development of society, food wastage has become a more and more severe issue, the overall food waste has increased by 50% during the past 45 years. With the increased accessibility to abundant resources, people tend to over-acquire and fail to consume the resources.
 Within companies and governmental or educational institutes, people order food for all kinds of events and meetings. We observed that in order to minimize the risk of not getting enough food for everyone, event/meeting organizers often over-order food. In addition, especially within campuses, a lot of people are not showing up for the events they registered for, leading to the overestimated number of people for events. These phenomena happening every day and everywhere are causing a huge amount of avoidable food waste. As a result, in order to truly avoid these food waste, our project combined the IoT technology to aim at the realization of re-distributing excess food resources within communities. 
 
-## About the Community chosen
+## About the Community Chosen
 Our eventual goal of the project is to re-distribute food within the community of generation. For example, over-ordered food from a meeting of one department of a company should be resolved within the company (multiple departments and colleagues). In this particular project, we started from the community of Carnegie Mellon University Pittsburgh (short as CMU) Campus. CMU is an educational institute with nearly 15,000 students and 1,400 faculties. Within the campus, there are academic, career-oriented, leisure, extracurricular, cultural, etc. events/meetings going on every day, and nearly every event provides snacks or meals. Our team members, as CMU students, observed a considerable amount of excess food thrown away or left randomly somewhere after events. Meanwhile, students in CMU are always hungry and fond of food or snacks. Hence, within the CMU community, we foresaw a balance between supply and demand for the over-ordered food. And thus, we decided to start our project in the community.
 
 ## Inspiration and Context
@@ -24,6 +26,7 @@ However, after further researches and understanding of the community, we found o
 At the end of the day, there are three expected goals to be achieved in this project. Firstly, to raise awareness of the food waste issue, how much food waste is generated among the community, and how everyone in the community can go one step further to make changes and prevent the excess food actually to become waste. Secondly, to encourage people to communicate with others. We expected this project to be a good conversation starter because we know that food is always a good thing for people to start the conversation. Last but not least, to create the connection among the dots of the community to make relationships closer. Currently, departments in CMU are mostly isolated without too many interactions. We expect this project to bring all the departments and institutes together to the network of the whole community.  
 
 In this stage of the project, we selected three spots on the CMU campus to implement our food stations. Each table was installed with a load cell amplifier and meter to indicate the amount of available food, and a noticeable food switch ("food here" on one side, "I took the last one" on the other side) is designed to show the availability. The map with inserted LEDs was put on the panel to display the availability in different spots on the campus.
+![](Images/Images/Final_Diagram.jpeg)
 
 ## Prototype
 Food Station- With a load cell attached to the bottom, the food station is the input of the IoT system. It can not only act as a location where people re-distribute excess food but also measure the weight of the "potential" food waste so that people can visually see how much surplus food is generated and can be avoided. 
@@ -41,6 +44,8 @@ BOM:
 - 1K*9
 - Load cell *3
 - Micro servo *3
+
+![](Images/Images/circuit.png)
 
 To sum up, we used 3 Particle Argons for the 3 sites of selection on campus (Tepper Business School, Gates Computer Science Department, and Cohon University Center). Each Particle Argon connected 3 light bulbs(representing 3 locations), 1 micro servo(to control the meter), 1 load cell(to measure the weight of food), and 1 toggle switch(receive signals from people providing and taking the last portion of food). 
 
